@@ -55,7 +55,7 @@ try:
     # Ensure "ind_pdfs" folder exists
     os.makedirs("ind_pdfs", exist_ok=True)
 
-    # Open RedShelf page
+    # Open page
     driver.get("page_log_in_URLR}")
     time.sleep(35)  # time to log in
 
@@ -63,7 +63,7 @@ try:
         driver.quit()
         exit()
 
-    # Redirect to Virdocs book page
+    # Redirect to book page
     driver.get("book_URL")
     time.sleep(3)
 
